@@ -7,11 +7,21 @@ sidebar:
 The Prusa Core One+ and Core One L build parts one thin layer at a time, melting plastic filament and drawing each layer onto a heated plate (fused deposition modeling, or FDM). They're the lab's workhorse for prototypes, brackets, enclosures, jigs, replacement parts, and anything else you'd rather hold than look at on a screen. Most parts come off in a few hours. The Fab Lab has eight of them: one large printer (**Clarkson**) and seven standard printers (**Lightning, Mater, Finn, Geoff, Hammond, Sally, and May**). Each print uses one color or material, and TPU is supported. Your part must fit inside a **250 × 220 × 270 mm** cube on a standard printer, or a **300 × 300 × 330 mm** cube on Clarkson. If you're not sure this is the right machine for your project, see [Which machine should I use?](/docs/which-machine/).
 
 > [!WARNING]
-> **The nozzle and heated bed get hot.** Never touch either while the printer is running or just after a print finishes, and never reach into the printer during a print.
+> **The nozzle and the build plate get hot enough to burn you.** The nozzle runs up to 300 °C and the plate up to 100 °C, and both stay dangerous for several minutes after a print ends. Never reach into the chamber to touch the toolhead or the plate.
+
+> [!WARNING]
+> **Keep the chamber door and the glass lid closed while a print is running.** The toolhead moves fast, without warning, and won't stop for your hand. If you need to get inside, stop the print first.
 
 :::caution[EMERGENCY STOP]
-**[Describe how to stop a printer mid-print and how to cut its power, and who to notify.]**
+Tap **Stop** on the printer's touchscreen — that cancels the print and parks the toolhead. To cut power completely, flip the **power switch on the back of the machine**, next to where the power cable plugs in. Tell a staff member either way.
 :::
+
+:::caution[SMOKE OR BURNING SMELL]
+Stop the print, cut power at the rear switch, and get a staff member immediately. **Keep the chamber closed** — the enclosure contains the problem, and opening it feeds it air. Warm plastic has a mild smell; smoke, an acrid burning smell, or scorching does not belong and is never something to wait out.
+:::
+
+> [!NOTE]
+> **No PPE is needed for this machine.** No goggles, no gloves, no mask. Tie back long hair and keep loose sleeves and drawstrings clear of the chamber when it's open, and you're set.
 
 ## Before you start
 
@@ -96,7 +106,7 @@ The Prusa Core One+ and Core One L build parts one thin layer at a time, melting
 > Don't try to pry a part off a hot bed. The bed stays hot for several minutes after a print finishes — touch it only after it has cooled.
 
 13. Lift the flexible **PEI spring steel sheet** off the magnetic bed, bend it gently, and your print will pop right off.
-14. Put the sheet back on the magnetic bed, lining it up with the **two locating pins at the back** of the printer.
+14. Put the sheet back on the magnetic bed, lining it up with the **two locating pins at the back** of the printer. Ensure it is clean: ir should be  **free of finger oil** and have no residual plastic on it.
 
 ## Finishing up
 
