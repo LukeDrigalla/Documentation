@@ -16,11 +16,11 @@ The Prusa Core One+ and Core One L build parts one thin layer at a time, melting
 ## Before you start
 
 - **No training or checkout is required.** Read this page, then go print. If it's your first time, staff are happy to stand with you — just ask.
-- Bring a **3D model file**: `.stl`, `.obj`, `.3mf`, or `.step`. Bambu Studio opens all of them.
+- Bring a **3D model file**: `.stl`, `.obj`, `.3mf`, or `.step`. PrusaSlicer opens all of them.
 - **To get your file onto a lab computer**, email it to **usertamufablab@gmail.com**, then open Gmail on a lab computer and download it there. A USB drive works too.
 - **Approved filaments:**
   - **PLA** and **PETG** — go ahead, no questions asked.
-  - **TPU** (the flexible one) — allowed, but ask a staff member to set it up. TPU is too soft to feed reliably through the AMS, so it runs off the external spool holder instead.
+  - **TPU** (the flexible one) — allowed, but ask a staff member to set it up.
   - **ABS** and **ASA** — check with a staff member first.
   - **Nylon**, and any **carbon-fiber- or glass-filled** filament — not approved on these machines.
 - **Lab filament is free** — the lab is stocked with PLA filament already, and you are welcome to move rolls around on machines. Follow the guide below on how to unload and load filament.
@@ -36,15 +36,16 @@ The Prusa Core One+ and Core One L build parts one thin layer at a time, melting
    - If **NO**, proceed to the next step.
 3. Remove the filament from the securing holes of the to-be-used roll. Feed the **free end of the filament into the PTFE (white) tube** on the right side of the machine. It may take a slight force to push past the sensor, but should be easy to push after. Continue pushing until you see the **Loading Filament** screen.
 
-   ![The printer display showing the Loading filament screen at 82% with the status Inserting](../assets/images/prusa-loading-filament-screen.jpg)
+   ![The printer display showing the Loading filament screen at 82% with the status Inserting](../../assets/images/prusa-loading-filament-screen.jpg)
 
-4. Apply **gentle pressure to the filament directly outside of the PTFE tube**. You should feel the filament slowly pulling in to the machine. Once it reaches 100% on the screen, select the material type. It will push out some material, then prompt to ensure the color is right.
 
-   ![A hand holding the filament just outside the white PTFE tube, with the spool on its holder below](../assets/images/prusa-pushing-filament.jpg)
+5. Apply **gentle pressure to the filament directly outside of the PTFE tube**. You should feel the filament slowly pulling in to the machine. Once it reaches 100% on the screen, select the material type. It will push out some material, then prompt to ensure the color is right.
 
-5. Follow the on-screen instructions until it is **fully loaded**.
+   ![A hand holding the filament just outside the white PTFE tube, with the spool on its holder below](../../assets/images/prusa-pushing-filament.jpg)
 
-   ![A fully loaded spool with the filament running from the spool up through the PTFE tube into the printer](../assets/images/prusa-filament-loaded.jpg)
+6. Follow the on-screen instructions until it is **fully loaded**.
+
+   ![A fully loaded spool with the filament running from the spool up through the PTFE tube into the printer](../../assets/images/prusa-filament-loaded.jpg)
 
 ## Operating
 
@@ -53,19 +54,19 @@ The Prusa Core One+ and Core One L build parts one thin layer at a time, melting
 1. Open **PrusaSlicer** on the lab computer.
 2. In the printer profile dropdown, select **Prusa CORE One** (for a standard printer) or **Prusa CORE One L** (for Clarkson, the large printer).
 
-   ![PrusaSlicer printer profile dropdown with the Prusa CORE One and Prusa CORE One L profiles listed](../assets/images/prusa-select-printer.png)
+   ![PrusaSlicer printer profile dropdown with the Prusa CORE One and Prusa CORE One L profiles listed](../../assets/images/prusa-select-printer.png)
 
 3. In the filament dropdown, choose your material (for example **PLA** or **PETG**), then pick a preset quality layer height — typically **0.20mm Structural** or **Speed**.
 
-   ![PrusaSlicer filament dropdown showing the available filament presets](../assets/images/prusa-select-filament.png)
+   ![PrusaSlicer filament dropdown showing the available filament presets](../../assets/images/prusa-select-filament.png)
 
 4. Click the **cube icon** at the top left of the toolbar, find your downloaded part file (STL or 3MF), and click **Open**. You can also drag and drop your file directly onto the build plate.
 
-   ![PrusaSlicer toolbar with the Add object cube icon highlighted](../assets/images/prusa-import-model.png)
+   ![PrusaSlicer toolbar with the Add object cube icon highlighted](../../assets/images/prusa-import-model.png)
 
 5. Use the manipulation tools on the **left toolbar** to scale and rotate your part. Use **Place on Face (F)** to lay a flat side of the part against the build plate. Hover over any tool icon to see its name and keyboard shortcut.
 
-   ![PrusaSlicer left toolbar with the manipulation tools highlighted and a model sitting on the build plate](../assets/images/prusa-position-tools.png)
+   ![PrusaSlicer left toolbar with the manipulation tools highlighted and a model sitting on the build plate](../../assets/images/prusa-position-tools.png)
 
 6. Add supports if your part needs them. Use the **Supports** dropdown in the right panel and choose **Support on build plate only** (supports start only from the plate) or **Everywhere** (supports can also start from the part itself). To have PrusaSlicer generate supports automatically, go to **Print Settings → Support Material** and check **Autogenerated supports**. You can also place supports by hand using the tool on the left toolbar. Not every part needs supports — ask a staff member if you're unsure.
 
@@ -73,15 +74,15 @@ The Prusa Core One+ and Core One L build parts one thin layer at a time, melting
 
 7. Click **Slice Now** in the bottom-right corner. This converts your model into printer instructions called G-code, which splits the part into layers the nozzle deposits one at a time.
 
-   ![PrusaSlicer with the Slice Now button highlighted at the bottom right](../assets/images/prusa-slice-now.png)
+   ![PrusaSlicer with the Slice Now button highlighted at the bottom right](../../assets/images/prusa-slice-now.png)
 
 8. Review the preview. Drag the **vertical layer slider** on the right side of the screen to inspect your layers, and check that nothing is floating without support. Confirm the material, infill density, and printer are what you intend.
 
-   ![PrusaSlicer layer preview with the vertical layer slider highlighted on the right](../assets/images/prusa-preview-slider.png)
+   ![PrusaSlicer layer preview with the vertical layer slider highlighted on the right](../../assets/images/prusa-preview-slider.png)
 
 9. Click **Send to Connect** in the bottom-right corner. In the window that opens, select the printer you want to print on, choose **Add to print queue**, and click **Confirm**.
 
-   ![The Send to Connect window listing Clarkson with Add to print queue selected and the Confirm button highlighted](../assets/images/prusa-send-to-connect.png)
+   ![The Send to Connect window listing Clarkson with Add to print queue selected and the Confirm button highlighted](../../assets/images/prusa-send-to-connect.png)
 
 10. If the printer is set to ready, the print will begin automatically. If not, a staff member will start the print.
 
@@ -105,7 +106,7 @@ The Prusa Core One+ and Core One L build parts one thin layer at a time, melting
 
 ## Common problems
 
-**The first layer won't stick, or corners lift off the plate.** Nearly always skin oil on the plate: wash it with dish soap and hot water, dry it, and handle it by the edges from then on. For a tall or narrow part, turn on a **brim** to widen its grip. Check as well that **Sync info** picked up the right plate type, since the slicer sets bed temperature from that.
+**The first layer won't stick, or corners lift off the plate.** Nearly always skin oil on the plate: wash it with dish soap and hot water, dry it, and handle it by the edges from then on. For a tall or narrow part, turn on a **brim** to widen its grip. Check as well that the proper plate is selected in the slicer.
 
 **Nothing is coming out of the nozzle.** Stop the print from the touchscreen and get a staff member. A blocked nozzle needs a cold pull, which is a staff job — don't poke anything into the nozzle and don't try to force filament through by hand.
 
