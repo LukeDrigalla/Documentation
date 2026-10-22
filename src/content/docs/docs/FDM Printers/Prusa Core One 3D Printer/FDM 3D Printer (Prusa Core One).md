@@ -4,7 +4,7 @@ sidebar:
   order: 1
 ---
 
-The Prusa Core One+ and Core One L build parts one thin layer at a time, melting plastic filament and drawing each layer onto a heated plate (fused deposition modeling, or FDM). They're the lab's workhorse for prototypes, brackets, enclosures, jigs, replacement parts, and anything else you'd rather hold than look at on a screen. Most parts come off in a few hours. The Fab Lab has eight of them: one large printer (**Clarkson**) and seven standard printers (**Lightning, Mater, Finn, Geoff, Hammond, Sally, and May**). Each print uses one color or material, and TPU is supported. Your part must fit inside a **250 × 220 × 270 mm** cube on a standard printer, or a **300 × 300 × 330 mm** cube on Clarkson. If you're not sure this is the right machine for your project, see [Which machine should I use?](/docs/which-machine/).
+The **Prusa Core One+** and **Prusa Core One L+** build parts one thin layer at a time, melting plastic filament and drawing each layer onto a heated plate (fused deposition modeling, or FDM). They're the lab's workhorse for prototypes, brackets, enclosures, jigs, replacement parts, and anything else you'd rather hold than look at on a screen. Most parts come off in a few hours. The Fab Lab has eight of them: one large printer (**Clarkson**) and seven standard printers (**Lightning, Mater, Finn, Geoff, Hammond, Sally, and May**). Each print uses one color or material, and TPU is supported. Your part must fit inside a **250 × 220 × 270 mm** cube on a standard printer, or a **300 × 300 × 330 mm** cube on Clarkson. If you're not sure this is the right machine for your project, see [Which machine should I use?](/docs/which-machine/).
 
 > [!WARNING]
 > **The nozzle and the build plate get hot enough to burn you.** The nozzle runs up to 300 °C and the plate up to 100 °C, and both stay dangerous for several minutes after a print ends. Never reach into the chamber to touch the toolhead or the plate.
@@ -62,7 +62,7 @@ Stop the print, cut power at the rear switch, and get a staff member immediately
 ### Prepare your model in PrusaSlicer
 
 1. Open **PrusaSlicer** on the lab computer.
-2. In the printer profile dropdown, select **Prusa CORE One** (for a standard printer) or **Prusa CORE One L** (for Clarkson, the large printer).
+2. In the printer profile dropdown, select **Prusa CORE One+** (for a standard printer) or **Prusa CORE One L+** (for Clarkson, the large printer).
 
    ![PrusaSlicer printer profile dropdown with the Prusa CORE One and Prusa CORE One L profiles listed](../../assets/images/prusa-select-printer.png)
 
