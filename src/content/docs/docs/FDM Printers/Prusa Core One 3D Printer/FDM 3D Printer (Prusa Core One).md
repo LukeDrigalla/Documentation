@@ -1,5 +1,5 @@
 ---
-title: 3D Printer (Prusa Core One)
+title: FDM 3D Printer (Prusa Core One)
 sidebar:
   order: 1
 ---
@@ -36,7 +36,7 @@ Stop the print, cut power at the rear switch, and get a staff member immediately
 - **Lab filament is free** — the lab is stocked with PLA filament already, and you are welcome to move rolls around on machines. Follow the guide below on how to unload and load filament.
 - **Keep the door closed while printing.** With it shut, the chamber's activated-carbon filter handles what little the plastic gives off, and drafts in the room that may harm print quality are mitigated. (It's also why ABS and ASA need a staff OK — those are the ones that actually smell.)
 - **Don't touch the top surface of the build plate.** Skin oil is the single most common reason a print won't stick. Pick the plate up by its edges or the tab at the front.
-- **Removing Others' Prints** If all printers are occupied and some prints are complete, you (or a staff member) can carefully remove the prints of others.
+- **Removing Others' Prints:** If all printers are occupied and some prints are complete, you (or a staff member) can carefully remove the prints of others.
 
 ## Loading Filament
 
@@ -49,11 +49,11 @@ Stop the print, cut power at the rear switch, and get a staff member immediately
    ![The printer display showing the Loading filament screen at 82% with the status Inserting](../../assets/images/prusa-loading-filament-screen.jpg)
 
 
-5. Apply **gentle pressure to the filament directly outside of the PTFE tube**. You should feel the filament slowly pulling in to the machine. Once it reaches 100% on the screen, select the material type. It will push out some material, then prompt to ensure the color is right.
+4. Apply **gentle pressure to the filament directly outside of the PTFE tube**. You should feel the filament slowly pulling in to the machine. Once it reaches 100% on the screen, select the material type. It will push out some material, then prompt to ensure the color is right.
 
    ![A hand holding the filament just outside the white PTFE tube, with the spool on its holder below](../../assets/images/prusa-pushing-filament.jpg)
 
-6. Follow the on-screen instructions until it is **fully loaded**.
+5. Follow the on-screen instructions until it is **fully loaded**.
 
    ![A fully loaded spool with the filament running from the spool up through the PTFE tube into the printer](../../assets/images/prusa-filament-loaded.jpg)
 
@@ -106,7 +106,7 @@ Stop the print, cut power at the rear switch, and get a staff member immediately
 > Don't try to pry a part off a hot bed. The bed stays hot for several minutes after a print finishes — touch it only after it has cooled.
 
 13. Lift the flexible **PEI spring steel sheet** off the magnetic bed, bend it gently, and your print will pop right off.
-14. Put the sheet back on the magnetic bed, lining it up with the **two locating pins at the back** of the printer. Ensure it is clean: ir should be  **free of finger oil** and have no residual plastic on it.
+14. Put the sheet back on the magnetic bed, lining it up with the **two locating pins at the back** of the printer. Make sure it is clean: it should be **free of finger oil** and have no leftover plastic on it.
 
 ## Finishing up
 
